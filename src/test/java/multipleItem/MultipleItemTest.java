@@ -1,4 +1,4 @@
-packagpackage multipleItem;
+package multipleItem;
 
 import base.ScriptBase;
 import controller.MultipleItemAddedPage;

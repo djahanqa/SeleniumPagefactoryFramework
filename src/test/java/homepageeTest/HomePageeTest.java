@@ -1,4 +1,4 @@
-packapackage homepageeTest;
+package homepageeTest;
 
 import base.ScriptBase;
 import controller.Homepagee;

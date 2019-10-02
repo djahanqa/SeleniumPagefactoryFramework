@@ -40,10 +40,6 @@ public class ContactTest extends ScriptBase {
         contactPage.sendmessage("djahan@yahoo.com","123456","please take a look at my order");
         log.info("** Verify Message Sent *** Test Ends");
     }
-
-
-
-
     @AfterTest
     public void closebrowser(){
         driver.close();
