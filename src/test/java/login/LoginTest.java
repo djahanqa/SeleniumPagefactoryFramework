@@ -14,13 +14,10 @@ public class LoginTest extends ScriptBase {
         init();
 
     }
-
-
     @Test
     public void invalidLoginVerify(){
         loginPage=new LoginPage(driver);
-        loginPage.invalidSignin("test@gmail.com","abdc1234");
-
+        loginPage.invalidSignin("test@gmail.com","gmail1234");
     }
 
     @Test
@@ -38,13 +35,13 @@ public class LoginTest extends ScriptBase {
     @Test
     public void invalidCreateAccountVerify(){
         loginPage=new LoginPage(driver);
-        loginPage.invalidCreateAccount("abcd");
+        loginPage.invalidCreateAccount("hahahehe@yahoo.");
     }
 
     @Test
     public void invalidSignUpAccountVerify(){
         loginPage=new LoginPage(driver);
-        loginPage.invalidSignup("test420@gmail.com",driver,"Ashraf","Khan","test420@gmail.com","admin1234");
+        loginPage.invalidSignup("test420@gmail.com",driver,"katlyn","Jenner","test420@gmail.com","admin1234");
     }
     @AfterTest
     public void closebrowser(){
