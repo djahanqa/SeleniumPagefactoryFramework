@@ -38,19 +38,14 @@ public class HomePageeTest extends ScriptBase {
         homepagee = new Homepagee(driver);
         homepagee.seachspProducts("HAT", driver, "7");
         log.info("** Verify Search Hat Quantity  *** Test Ends");
-
     }
-
     @Test
     public void searchDressesQuantity() {
         log.info("** Verify Search Dress Quantity  *** Test Starts");
         homepagee = new Homepagee(driver);
         homepagee.seachspProducts("DRESS", driver, "7");
         log.info("** Verify Search Dress Quantity  *** Test Ends");
-
-
     }
-
 
     @Test
     public void searchwomenQuantity() {

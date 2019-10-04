@@ -2,10 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6897024d-16aa-4b4e-8fb8-fae7295eea8b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/multipleItemAdded/MultipleItemAddedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/socialMediaTest/socialMediaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/womanTest/WomanTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/womencatalog/WomanCatalogTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/ScriptBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/ScriptBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/contact/ContactTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/contact/ContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPagefactoryFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPagefactoryFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/MultipleItemAddedPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/MultipleItemAddedPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/homepageeTest/HomePageeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/homepageeTest/HomePageeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/multipleItem/MultipleItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/multipleItem/MultipleItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/base/ScriptBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/base/ScriptBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/CartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/CartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/ContactPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/ContactPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Homepagee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Homepagee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/LoginPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/MultipleItemAddedPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/MultipleItemAddedPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/MultipleItemPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/MultipleItemPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/OneItemAddedToCartPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/OneItemAddedToCartPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/SocialMedia.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/SocialMedia.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/Woman.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/Woman.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/controller/WomanCatalog.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/controller/WomanCatalog.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +92,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -97,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ContactTest">
+  <component name="RunManager" selected="TestNG.MultipleItemTest">
     <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
       <setting name="path" value="" />
       <setting name="vmparams" value="" />
@@ -145,16 +164,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPagefactoryFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homepage.*" />
+          <option name="PATTERN" value="homepageeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homepage" />
-      <option name="MAIN_CLASS_NAME" value="homepage.HomePageTest" />
+      <option name="PACKAGE_NAME" value="homepageeTest" />
+      <option name="MAIN_CLASS_NAME" value="homepageeTest.HomePageeTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -162,17 +181,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HomePageTest.searchHatQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageeTest.searchDressesQuantity" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPagefactoryFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="homepage.*" />
+          <option name="PATTERN" value="homepageeTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="homepage" />
-      <option name="MAIN_CLASS_NAME" value="homepage.HomePageTest" />
-      <option name="METHOD_NAME" value="searchHatQuantity" />
+      <option name="PACKAGE_NAME" value="homepageeTest" />
+      <option name="MAIN_CLASS_NAME" value="homepageeTest.HomePageeTest" />
+      <option name="METHOD_NAME" value="searchDressesQuantity" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -180,10 +199,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/dilrubajahan/Documents/SeleniumPagefactoryFramework/src/test/resources/testsuite/regression.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MultipleItemTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumPagefactoryFramework" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testsuite/regression.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multipleItem.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="multipleItem" />
+      <option name="MAIN_CLASS_NAME" value="multipleItem.MultipleItemTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -192,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.MultipleItemTest" />
+        <item itemvalue="TestNG.HomePageeTest" />
+        <item itemvalue="TestNG.HomePageeTest.searchDressesQuantity" />
         <item itemvalue="TestNG.ContactTest" />
         <item itemvalue="TestNG.ContactTest.varifySendAMessage" />
-        <item itemvalue="TestNG./Users/dilrubajahan/Documents/SeleniumPagefactoryFramework/src/test/resources/testsuite/regression.xml" />
-        <item itemvalue="TestNG.HomePageTest" />
-        <item itemvalue="TestNG.HomePageTest.searchHatQuantity" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1569993032796</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Contact page">
+      <created>1569993761756</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1569993761756</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +371,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/homepageeTest/HomePageeTest.java</url>
-          <line>198</line>
+          <line>193</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

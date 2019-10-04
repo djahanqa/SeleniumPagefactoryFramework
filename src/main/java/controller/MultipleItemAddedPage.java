@@ -98,8 +98,6 @@ public class MultipleItemAddedPage extends ScriptBase {
         log.info(" chose M size using drop down button");
     }
 
-
-
     public void dropdown(WebElement element,String value){
         element=size;
         Select select=new Select(element);
@@ -109,7 +107,6 @@ public class MultipleItemAddedPage extends ScriptBase {
         Actions action = new Actions(driver);
         element = element;
         action.moveToElement(element).perform();
-
 
     }
 
